@@ -126,6 +126,7 @@ fn main() -> std::io::Result<()> {
             }
         }
     }
+    std::io::stdin().read_line(&mut String::new()).unwrap();
     Ok(())
 }
 

@@ -15,3 +15,9 @@ open the setting.toml
 input_p = "" #set your input file   
 cookies = "" #set your cookies
 ```
+open file explorer
+change direction to JOBMR/ DOWNLOAD/
+run
+```bash
+python webdown.py 
+```

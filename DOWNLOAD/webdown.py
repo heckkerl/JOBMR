@@ -63,7 +63,7 @@ def main():
     #for code in g_map_code:
         #downloader(code, osu_cook)
     print("downloading..")
-    with ThreadPoolExecutor(max_workers=4) as executor :
+    with ThreadPoolExecutor(max_workers=2) as executor :
         futures = [executor.submit(downloader, code, osu_cook) for code in g_map_code]
         for fut in as_completed(futures):
             pass

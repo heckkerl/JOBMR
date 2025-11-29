@@ -1,5 +1,6 @@
 import requests
 import tomllib
+import time
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -29,6 +30,8 @@ def downloader(map_code, cookie):
 
     if resp.status_code != 200:
         print(f"Failed to download {beatmap_code}: {resp.status_code}")
+        if resp.status_code == 429:
+            time.sleep(70)
         return
     #print("good status")
     total = int(resp.headers.get("Content-Length", 0))

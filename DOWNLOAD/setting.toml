@@ -1,4 +1,4 @@
 [setting]
-input_p = "output.txt" #set path to your input file
-cookies = "eyJpdiI6IjhUVWJQS3B0czl2WE9RbUFweUcvamc9PSIsInZhbHVlIjoiTCtYcmErQncxdzl0bVRoRXJ6RFA1YkNoR1FJWHQxY0YvcFJlL1F0Z3plWi9ueHVtY2xDM1AxVE52cm5mSHY0QWVjVDhONTZoM0xxYm8xMFk0ZWEyNTJZdnVBRWtIM0lxcGNpWjdFRXZUNkliTjhtajQ1aDVxbmpqNlMxWVh0OGtMVCsyRlFZU0pZNFlvaWZPcUNKaEJRPT0iLCJtYWMiOiJkNWU1MWU2YTkwZGRiZDkyNzc4YzFkZTE5ZTkzODEzYzYzZTY4YjExZWNkOThjZjBhZGM5M2UwYzRhM2M4NjFlIiwidGFnIjoiIn0%3D" #set your cookies
+input_p = "" #set path to your input file
+cookies = "" #set your cookies
 

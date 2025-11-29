@@ -6,3 +6,12 @@ just a osu beatmap recoverer
 > go to folder that include JOBMR.exe  
 > rightclick and choose open with terminal  
 > type: JOBMR -p <path to Songs folder> -o <path to output file> print  
+
+# DOWNLOADER USAGE
+go to DOWNLOAD/ folder  
+open the setting.toml
+```toml
+[setting]
+input_p = "" #set your input file   
+cookies = "" #set your cookies
+```
